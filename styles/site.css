@@ -1,4 +1,49 @@
+/*
+html {
+  font-family: sans-serif;
+}
+this html element overrides all the other font-family that I set later in the body, list, etc. */
+
 body {
-  background-color: #ffffff;
+  background-color: #658f6c;
   color: #000000;
 }
+
+li {
+  color: #93108a;
+  font-family: 'Papyrus';
+  font-size: 14pt;
+}
+
+blockquote {
+  border-left: 6px solid gray;
+}
+
+h1 {
+  color: #185ec5;
+  background-color: #d57b7baf;
+}
+
+h2 {
+  font-family: 'Cambria Math', sans-serif;
+  font-variant: small-caps;
+  font-size: 36pt;
+}
+
+/* h2 {
+  font-family: 'Cambria Math', sans-serif;
+  font-variant: small-caps;
+  font-size: 36pt;
+} */
+
+/* overriding <em></em> text to become normal */
+em {
+  font-style: normal;
+  color: red;
+}
+
+/*
+section p {
+  background-color: lightskyblue;
+}
+*/
